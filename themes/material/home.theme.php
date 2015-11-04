@@ -1,6 +1,6 @@
 <?php
 
-class HomeTheme extends Themelet {
+class CustomHomeTheme extends HomeTheme {
 	public function display_page(Page $page, $sitename, $base_href, $theme_name, $body) {
 		$page->set_mode("data");
 		$hh = "";
@@ -63,4 +63,3 @@ EOD
 		</div>";
 	}
 }
-
